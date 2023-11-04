@@ -64,9 +64,7 @@ Please adhere to the following guidelines:
 - Use key-based authentication for SSH where possible.
 - Report any suspicious activity immediately.
 
-In case you have any security concerns or notice unusual behavior, please contact the server admin at [your-email@example.com](mailto:your-email@example.com) immediately.
-
-
+In case you have any security concerns or notice unusual behavior, please contact the server admin at [admin@sasebo.host](mailto:admin@sasebo.host) immediately.
 
 ## Contribution
 
