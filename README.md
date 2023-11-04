@@ -12,6 +12,14 @@ Rocky Linux is a community enterprise operating system designed to be 100% bug-f
 - **Location**: Seattle (Linode)
 - **OS**: Rocky Linux 9
 
+## Services Running
+
+Here you can list the services/applications that are running on this server, for example:
+
+- Web server (Apache/Nginx)
+- Database server (MySQL/PostgreSQL)
+- Custom applications
+
 ## Docker Containerization
 
 This server utilizes Docker for containerization to manage individual Drupal and WordPress site environments. Each site runs within its own isolated container, ensuring scalability, portability, and a consistent development environment.
@@ -24,21 +32,6 @@ This server utilizes Docker for containerization to manage individual Drupal and
 ### Managing Containers
 
 The containers are managed using Docker Compose and custom scripts to simplify the processes of building, starting, stopping, and removing containers.
-
-#### Building Containers
-
-To build the containers for the first time or update them after changing the Docker configuration, run:
-
-```bash
-docker-compose build
-
-## Services Running
-
-Here you can list the services/applications that are running on this server, for example:
-
-- Web server (Apache/Nginx)
-- Database server (MySQL/PostgreSQL)
-- Custom applications
 
 ## Maintenance Schedule
 
