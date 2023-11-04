@@ -62,7 +62,7 @@ Contributions to this server's configuration and maintenance scripts are welcome
 
 ## Contact Information
 
-For any additional information or help, please contact the server admin at [your-email@example.com](mailto:your-email@example.com).
+For any additional information or help, please contact the server admin at [admin@sasebo.host](mailto:admin@sasebo.host).
 
 ---
 
