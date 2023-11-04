@@ -44,11 +44,29 @@ During maintenance windows, services may not be available.
 
 ## Security
 
-Security is paramount. Please ensure you adhere to the following guidelines:
+Security is a top priority for `rocky.sasebo.host`. To ensure the integrity and confidentiality of the data, the following security measures are in place:
 
-- Regularly update your SSH keys.
+- **SELinux**: Security-Enhanced Linux (SELinux) is enabled on this server, providing an added layer of access control security. SELinux policies are strictly enforced, which helps to limit potential damage from vulnerabilities.
+
+- **SSH**: Secure Shell (SSH) access is restricted and monitored. Regularly update your SSH keys and ensure passwords are strong and changed periodically.
+
+- **Firewalls**: Firewalls are configured to allow only necessary ports and protocols. Regular audits are performed to ensure that firewall rules are up-to-date.
+
+- **Docker Security**: Containers are run with the least privileges necessary, and images are kept up-to-date with the latest security patches. Network configurations are designed to restrict unnecessary internal and external communications.
+
+- **Regular Updates**: System and application updates are regularly applied to ensure all components have the latest security fixes.
+
+- **Monitoring**: Continuous monitoring is in place for detecting and alerting on suspicious activities.
+
+Please adhere to the following guidelines:
+
 - Do not share access with unauthorized users.
+- Use key-based authentication for SSH where possible.
 - Report any suspicious activity immediately.
+
+In case you have any security concerns or notice unusual behavior, please contact the server admin at [your-email@example.com](mailto:your-email@example.com) immediately.
+
+
 
 ## Contribution
 
