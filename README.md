@@ -4,7 +4,7 @@ Welcome to the repository for `rocky.sasebo.host`, a Rocky Linux server designed
 
 ## About Rocky Linux
 
-[Rocky Linux](https://rockylinux.org/) is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution, [Red Hat Enterprise Linux®.(https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)]. It is under intensive development by the community.
+[Rocky Linux](https://rockylinux.org/) is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution, [Red Hat Enterprise Linux®].(https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux). It is under intensive development by the community.
 
 ## Server Specifications
 
@@ -67,16 +67,6 @@ Please adhere to the following guidelines:
 - Report any suspicious activity immediately.
 
 In case you have any security concerns or notice unusual behavior, please contact the server admin at [security@sasebo.host](mailto:security@sasebo.host) immediately.
-
-## Contribution
-
-Contributions to this server's configuration and maintenance scripts are welcome. Please follow the steps below:
-
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
 
 ## Contact Information
 
