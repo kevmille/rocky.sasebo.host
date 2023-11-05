@@ -4,7 +4,7 @@ Welcome to the repository for `rocky.sasebo.host`, a Rocky Linux server designed
 
 ## About Rocky Linux
 
-Rocky Linux is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution. It is under intensive development by the community.
+[Rocky Linux](https://rockylinux.org/) is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution. It is under intensive development by the community.
 
 ## Server Specifications
 
