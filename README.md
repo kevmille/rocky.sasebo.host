@@ -4,25 +4,27 @@ Welcome to the repository for `rocky.sasebo.host`, a Rocky Linux server designed
 
 ## About Rocky Linux
 
-[Rocky Linux](https://rockylinux.org/) is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution. It is under intensive development by the community.
+[Rocky Linux](https://rockylinux.org/) is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution, [Red Hat Enterprise Linux®.(https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)]. It is under intensive development by the community.
 
 ## Server Specifications
 
-- **Hostname**: rocky.sasebo.host
-- **Location**: Seattle (Linode)
-- **OS**: Rocky Linux 9
+- **Hostname**: [rocky.sasebo.host](https://rocky.sasebo.host).
+- **Location**: Seattle ([Linode](https://linode.com)).
+- **OS**: [Rocky Linux 9](https://rockylinux.org/).
+- **Rainblur Landing Page**: [https://www.tailwindawesome.com/resources/rainblur-landing-page](https://www.tailwindawesome.com/resources/rainblur-landing-page).
 
 ## Services Running
 
 Here you can list the services/applications that are running on this server, for example:
 
-- Web server (Apache/Nginx)
-- Database server (MySQL/PostgreSQL)
-- Custom applications
+- Web servers ([Apache](https://httpd.apache.org/)/[Nginx](https://nginx.org/en/)).
+- Database servers ([MySQL](https://dev.mysql.com/downloads/)/[PostgreSQL](https://www.postgresql.org/)).
+- Containers ([Docker](https://www.docker.com/)/[Kubernetes](https://kubernetes.io/)).
+- Custom applications ([Astro](https://astro.build/)/[SvelteKit](https://kit.svelte.dev/)).
 
 ## Docker Containerization
 
-This server utilizes Docker for containerization to manage individual Drupal and WordPress site environments. Each site runs within its own isolated container, ensuring scalability, portability, and a consistent development environment.
+This server utilizes Docker for containerization to manage individual [Drupal](https://www.drupal.org/) and [WordPress](https://wordpress.org) site environments. Each site runs within its own isolated container, ensuring scalability, portability, and a consistent development environment.
 
 ### Architecture
 
@@ -31,24 +33,24 @@ This server utilizes Docker for containerization to manage individual Drupal and
 
 ### Managing Containers
 
-The containers are managed using Docker Compose and custom scripts to simplify the processes of building, starting, stopping, and removing containers.
+The containers are managed using [Docker Compose](https://docs.docker.com/compose/) and custom scripts to simplify the processes of building, starting, stopping, and removing containers.
 
 ## Maintenance Schedule
 
 Regular maintenance is performed on this server to ensure security and stability. The maintenance window is scheduled for:
 
-- **Weekly**: Sunday 12:00 AM - 3:00 AM PST
-- **Monthly**: First Saturday 1:00 AM - 4:00 AM PST
+- **Weekly**: Sunday 12:00 AM - 3:00 AM PST.
+- **Monthly**: First Saturday 1:00 AM - 4:00 AM PST.
 
-During maintenance windows, services may not be available.
+During maintenance windows, services may not be available. Maintenance times are subject to change.
 
 ## Security
 
 Security is a top priority for `rocky.sasebo.host`. To ensure the integrity and confidentiality of the data, the following security measures are in place:
 
-- **SELinux**: Security-Enhanced Linux (SELinux) is enabled on this server, providing an added layer of access control security. SELinux policies are strictly enforced, which helps to limit potential damage from vulnerabilities.
+- **SELinux**: Security-Enhanced Linux ([SELinux](https://docs.docker.com/compose/)) is enabled on this server, providing an added layer of access control security. SELinux policies are strictly enforced, which helps to limit potential damage from vulnerabilities.
 
-- **SSH**: Secure Shell (SSH) access is restricted and monitored. Regularly update your SSH keys and ensure passwords are strong and changed periodically.
+- **SSH**: Secure Shell ([SSH](https://www.linode.com/docs/guides/security/ssh/)) access is restricted and monitored. Regularly update your SSH keys and ensure passwords are strong and changed periodically.
 
 - **Firewalls**: Firewalls are configured to allow only necessary ports and protocols. Regular audits are performed to ensure that firewall rules are up-to-date.
 
@@ -56,7 +58,7 @@ Security is a top priority for `rocky.sasebo.host`. To ensure the integrity and 
 
 - **Regular Updates**: System and application updates are regularly applied to ensure all components have the latest security fixes.
 
-- **Monitoring**: Continuous monitoring is in place for detecting and alerting on suspicious activities.
+- **Monitoring**: Continuous monitoring is in place for detecting and alerting on suspicious activities. We plan to use [Ansible](https://www.ansible.com/).
 
 Please adhere to the following guidelines:
 
@@ -64,7 +66,7 @@ Please adhere to the following guidelines:
 - Use key-based authentication for SSH where possible.
 - Report any suspicious activity immediately.
 
-In case you have any security concerns or notice unusual behavior, please contact the server admin at [admin@sasebo.host](mailto:admin@sasebo.host) immediately.
+In case you have any security concerns or notice unusual behavior, please contact the server admin at [security@sasebo.host](mailto:security@sasebo.host) immediately.
 
 ## Contribution
 
