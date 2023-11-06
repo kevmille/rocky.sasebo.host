@@ -4,7 +4,7 @@ Welcome to the repository for `rocky.sasebo.host`, a Rocky Linux server designed
 
 ## About Rocky Linux
 
-[Rocky Linux](https://rockylinux.org/) is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution, [Red Hat Enterprise Linux®].(https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux). It is under intensive development by the community.
+[Rocky Linux](https://rockylinux.org/) is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution, [Red Hat Enterprise Linux®](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux). It is under intensive development by the community.
 
 ## Server Specifications
 
@@ -33,7 +33,7 @@ This server utilizes Docker for containerization to manage individual [Drupal](h
 
 ### Managing Containers
 
-The containers are managed using [Docker Compose](https://docs.docker.com/compose/) and custom scripts to simplify the processes of building, starting, stopping, and removing containers.
+The containers are managed using [Docker Compose](https://docs.docker.com/compose/) and Kubernetes with custom scripts to simplify the processes of building, starting, stopping, and removing containers.
 
 ## Maintenance Schedule
 
